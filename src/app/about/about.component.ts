@@ -18,8 +18,9 @@ export class AboutComponent implements OnInit {
 
   ngAfterViewInit() {
     new WOW().init();
-    //  $(".skitter-large").skitter();
+    $(".skitter-large").skitter();
   }
+  esmail() {}
 
   constructor() {}
 
