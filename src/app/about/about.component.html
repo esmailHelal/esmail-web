@@ -1,0 +1,64 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>name:</th>
+      <th>slaray:</th>
+      <th>date:</th>
+    </tr>
+  </thead>
+
+  <tbody *ngIf="users.length > 0">
+    <tr *ngFor="let user of users">
+      <td>{{ user.name }}</td>
+      <td>{{ user.slary }}</td>
+      <td>{{ user.birthday }}</td>
+    </tr>
+  </tbody>
+</table>
+<h1 class="wow slideInLeft" data-wow-duration="2s">Wow effect!</h1>
+<div class="skitter skitter-large with-dots">
+  <ul>
+    <li>
+      <a href="#cut">
+        <img
+          src="https://visualhunt.com/photos/l/1/dawn-sun-mountain-landscape.jpg"
+          class="cut"
+        />
+      </a>
+      <div class="label_text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <a href="#see-more" class="btn btn-xs btn-warning">See more</a>
+        </p>
+      </div>
+    </li>
+    <li>
+      <a href="#swapBlocks">
+        <img
+          src="https://visualhunt.com/photos/l/1/aurora-borealis-over-mountains-at-night.jpg"
+          class="swapBlocks"
+        />
+      </a>
+      <div class="label_text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <a href="#see-more" class="btn btn-xs btn-warning">See more</a>
+        </p>
+      </div>
+    </li>
+    <li>
+      <a href="#swapBarsBack">
+        <img
+          src="https://visualhunt.com/photos/l/1/tourists-on-top-of-rock.jpg"
+          class="swapBarsBack"
+        />
+      </a>
+      <div class="label_text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <a href="#see-more" class="btn btn-xs btn-warning">See more</a>
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
