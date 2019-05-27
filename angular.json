@@ -24,17 +24,27 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
+              "./node_modules/fontawesome-free-5.8.2-web/css/fontawesome.min.css",
               "./node_modules/bootstrap/scss/bootstrap.scss",
               "./node_modules/wowjs/css/libs/animate.css",
               "./node_modules/skitter-slider/scss/skitter.scss",
+              "./node_modules/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css",
+              "./node_modules/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css",
+              "./node_modules/bxslider/dist/jquery.bxslider.min.css",
+              "./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css",
               "src/styles.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/jqueryui/jquery-ui.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "./node_modules/skitter-slider/dist/jquery.skitter.min.js",
-              "./node_modules/wowjs/dist/wow.js"
+              "./node_modules/wowjs/dist/wow.js",
+              "./node_modules/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js",
+              "./node_modules/bxslider/dist/jquery.bxslider.min.js",
+              "./node_modules/parallax.js-1.5.0/parallax.min.js",
+              "./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"
             ],
             "es5BrowserSupport": true
           },
